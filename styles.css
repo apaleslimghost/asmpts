@@ -24,6 +24,7 @@ body {
 	color: #eecaf9;
 	background: #5b3693;
 	font-family: "Sohne", sans-serif;
+	line-height: 0.8;
 }
 
 a:link, a:visited {
@@ -67,7 +68,6 @@ h1, h2, h3, .big {
 
 h1, h2, h3 {
 	margin: 0;
-	line-height: 0.8;
 }
 
 h3 {
