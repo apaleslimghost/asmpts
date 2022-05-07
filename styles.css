@@ -79,11 +79,11 @@ article, header {
 }
 
 article {
-	min-width: 20rem;
+	min-width: 50vh;
 	font-size: 1.6em;
 }
 
-@media (min-width: calc(100vh + 20rem)) {
+@media (min-width: 150vh) {
 	header {
 		position: fixed;
 		height: 100vmin;
