@@ -1,0 +1,115 @@
+@font-face {
+	font-family: Sohne;
+	src: url(files/Sohne-Extraleicht.woff2);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Sohne;
+	src: url(files/Sohne-Extrafett.woff2);
+	font-weight: 900
+}
+
+@font-face {
+	font-family: Sohne;
+	src: url(files/Sohne-ExtrafettKursiv.woff2);
+	font-weight: 900;
+	font-style: italic;
+}
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	color: #eecaf9;
+	background: #5b3693;
+	font-family: "Sohne", sans-serif;
+}
+
+a:link, a:visited {
+	color: inherit;
+	font-weight: 900;
+}
+
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	pointer-events: none;
+}
+
+header {
+	width: 100vmin;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10vmin;
+
+	color: #c3aaca;
+}
+
+main {
+	mix-blend-mode: color-dodge;
+}
+
+h1, h2 {
+	font-size: 20vmin;
+	font-style: italic;
+}
+
+h1, h2, h3, .big {
+	-webkit-text-stroke: calc(0.002em + 0.5px) #c556e4;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	line-height: 0.8;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+article, header {
+	padding: 2rem;
+}
+
+article {
+	min-width: 20rem;
+	font-size: 1.6em;
+}
+
+@media (min-width: calc(100vh + 20rem)) {
+	header {
+		position: fixed;
+		height: 100vmin;
+	}
+
+	article {
+		position: absolute;
+		left: 100vh;
+		right: 0;
+	}
+}
+
+article h3:not(:first-child) {
+	margin-top: 1em;
+}
+
+article iframe {
+	width: 100%;
+	max-width: 40rem;
+	border-radius: 1rem;
+}
+
+iframe[src^="https://www.youtube.com"] {
+	aspect-ratio: 16 / 9;
+}
+
+iframe[src^="https://open.spotify.com"] {
+	height: 30rem;
+}
