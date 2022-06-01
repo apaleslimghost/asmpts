@@ -40,6 +40,12 @@ video {
 	pointer-events: none;
 }
 
+@media (prefers-reduced-motion) {
+	video {
+		display: none;
+	}
+}
+
 header {
 	width: 100vmin;
 
