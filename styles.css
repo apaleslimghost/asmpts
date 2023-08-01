@@ -21,8 +21,8 @@
 
 body {
 	margin: 0;
-	color: #eecaf9;
-	background: #5b3693;
+	color: #5b3693;
+	background: #eecaf9;
 	font-family: "Sohne", sans-serif;
 	line-height: 0.8;
 }
@@ -32,7 +32,7 @@ a:link, a:visited {
 	font-weight: 900;
 }
 
-video {
+video, image.main {
 	object-fit: cover;
 	width: 100vw;
 	height: 100vh;
@@ -54,11 +54,11 @@ header {
 	justify-content: space-between;
 	gap: 10vmin;
 
-	color: #c3aaca;
+	color: #BE3E4F;
 }
 
 main {
-	mix-blend-mode: color-dodge;
+	mix-blend-mode: color-burn;
 }
 
 h1, h2 {
@@ -67,7 +67,7 @@ h1, h2 {
 }
 
 h1, h2, h3, .big {
-	-webkit-text-stroke: calc(0.002em + 0.5px) #c556e4;
+	-webkit-text-stroke: calc(0.002em + 0.5px) #9A1860;
 	text-transform: uppercase;
 	font-weight: 900;
 }
