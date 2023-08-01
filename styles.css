@@ -32,7 +32,7 @@ a:link, a:visited {
 	font-weight: 900;
 }
 
-video, image.main {
+video, img.main {
 	object-fit: cover;
 	width: 100vw;
 	height: 100vh;
