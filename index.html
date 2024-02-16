@@ -7,34 +7,33 @@
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="ASYMPTOTES">
 		<meta property="og:description" content="maybe the real asymptotes were the friends we made along the way">
-		<meta property="og:image" content="https://asmpts.com/files/bg-2023.jpg">
+		<meta property="og:image" content="https://asmpts.com/files/bg-2024.webp">
 	</head>
 
 	<body>
-		<img class="main" src="files/bg-2023.jpg" alt="">
+		<img class="main" src="files/bg-2024.webp" alt="">
 
 		<main>
 			<header>
 				<h1>Asymp&shy;totes</h1>
+				<h2>Syncr&shy;etism</h2>
 			</header>
 
 			<article>
-				<h3>Latest single /// Rare Jpegs</h3>
-
-				<iframe src="https://www.youtube.com/embed/DSOkgKhCEo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-				<h3>In Progress /// Out Now</h3>
-
-				<iframe style="border: 0; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=3314095339/size=large/bgcol=ffffff/linkcol=7137dc/artwork=small/transparent=true/" seamless>
-					<a href="https://asmpts.bandcamp.com/album/in-progress">IN PROGRESS by asymptotes</a>
-				</iframe>
-
 				<p class="big">
 					<a href="https://asmpts.bandcamp.com/" target="_blank">Bandcamp</a> ///
 					<a href="https://open.spotify.com/artist/3TzsOJwiMZHmnnRFAdfuUH?si=sX-j7mkpTYSBfnsmVssWjQ" target="_blank">Spotify</a> ///
 					<a href="https://www.youtube.com/@asymptotes" target="_blank">Youtube</a> ///
 					<a href="https://www.instagram.com/asmpts/" target="_blank">Insta</a>
 				</p>
+
+				<h3>Syncretism /// Out 19th Feb</h3>
+
+				<iframe style="border: 0; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=2345891322/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/tracklist=true/tracks=799189035,2873698200,189820481,1358983554,204008494,2991881262,3890799153,1348539998,3166756938/esig=0c5c7d097a8daf7e0317972c2dd1dab3/" seamless><a href="https://asmpts.bandcamp.com/album/syncretism">SYNCRETISM by asymptotes</a></iframe>
+
+				<h3>Latest video /// Live at EMOM November 2022</h3>
+
+				<iframe src="https://www.youtube.com/embed/izdcYPEQxDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 				<h3>Featured playlist /// Subtle Bodies</h3>
 
@@ -48,4 +47,10 @@
 			</article>
 		</main>
 	</body>
+
+	<script>
+		document.querySelectorAll('iframe').forEach(
+			i => i.contentWindow.location.href = i.src
+		)
+	</script>
 </html>
